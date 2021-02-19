@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/top_all.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/iconfont1.css">
+    <link href="img/logo1.png" rel="shortcut icon" />
+    <title>活动</title>
+</head>
+
+<body>
+
+
+    <!--  顶部导航栏  -->
+    <div class="top">
+        <nav class="static-nav clear">
+            <!--  logo  -->
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo1.png">
+                </a>
+            </div>
+            <!--  菜单  -->
+            <div class="nav-menu">
+                <ul>
+                    <li>
+                        <a href="index.jsp">首 页</a>
+                    </li>
+                    <li>
+                        <a href="#">发 现</a>
+                    </li>
+                    <li>
+                        <a href="#">最 新</a>
+                    </li>
+                    <li>
+                        <a href="#">活 动</a>
+                    </li>
+                    <li>
+                        <a href="#">更 多</a>
+                    </li>
+                </ul>
+            </div>
+            <!--  搜索框  -->
+            <div class="nav-search">
+                <input type="text" name="nav-search">
+                <a href="#">
+                    <span class="iconfont icon-sousuo"></span>
+                </a>
+            </div>
+            <!--  用户注册登陆  -->
+            <div class="login">
+                <a href="#" class="nav-login">登录</a>
+
+                <a href="#" class="nav-enroll" onclick="createCode()">注册</a>
+            </div>
+        </nav>
+        <div class="view-top">
+            <p>这是一个仅供学习交流的摄影网站·····</p>
+            <span>在这里，发现基于共同兴趣的同好；鼓励原创和分享精神；除了美好的摄影和技能，我们更在意影像背后价值观的认同。</span>
+        </div>
+    </div>
+    <iframe src="activity.html" margin-top="0" frameborder="0" scrolling="no" height="190%" width="100%"></iframe>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer_top">
+            <a href="#" class="footer_top_a">网站简介</a>
+            <a href="#" class="footer_top_a">关于我们</a>
+            <a href="#" class="footer_top_a">联系我们</a>
+            <a href="#" class="footer_top_a">友情链接</a>
+            <a href="#" class="footer_top_a">用户协议</a>
+            <a href="#" class="footer_top_a">隐私权声明</a>
+            <div class="wecat clearfix">
+                <span class="iconfont icon-weixin">
+                    <div class="qrcode">
+                        <img src="img/qrcode.png" alt="">
+                        <div class="sj"></div>
+                    </div>
+                </span>
+                <span class="iconfont icon-weibo"></span>
+
+            </div>
+        </div>
+        <hr></hr>
+        <div class="footer_bottom">
+            <span>如有侵权请联系</span>
+            <span>QQ：905001909</span>
+            <span>电话：17863080256</span>
+            <span>邮箱:905001909@qq.com</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <div class="modal">
+        <div class="msg-box clearfix">
+            <a class="close" href="#">×</a>
+            <div class="modal_top">
+                <p class="header">登录</p>
+                <span>还没有账号？</span>
+                <a href="#" class="modal-eroll">马上注册</a>
+            </div>
+            <div class="modal_login">
+                <input type="text" name="username" class="textfiled" placeholder="用户名/邮箱/手机号" />
+                <input type="password" name="password" class="textfiled" placeholder="输入密码" />
+            </div>
+            <input class="dl" type="submit" value="登录" />
+            <div class="qw">
+                <p>第三方登陆</p>
+                <a href="#" class="iconfont icon-qq"></a>
+                <a href="#" class="iconfont icon-weibo"></a>
+                <a href="#" class="iconfont icon-weixin"></a>
+            </div>
+        </div>
+    </div>
+    <div class="modal2">
+        <div class="msg-box2 clearfix">
+            <a class="close2" href="#">×</a>
+            <div class="modal_top">
+                <p class="header">注册</p>
+                <span>已有账号？</span>
+                <a href="#" class="modal-log">马上登陆</a>
+            </div>
+            <div class="modal_login">
+                <input type="text" name="username" class="textfiled" placeholder="用户名/邮箱" />
+                <input type="password" name="password" class="textfiled" placeholder="输入密码" />
+                <input type="password" name="password" class="textfiled" placeholder="确认密码" />
+                <input type="text" id="input" class="enroll-code" placeholder="验证码" />
+                <input type="text" id="code" class="code" style="width: 55px" readonly="readonly" />
+                <a href="#" onclick="createCode()">刷新验证码</a>
+
+            </div>
+            <input class="dl" type="submit" onclick="validate();" value="点击注册" />
+        </div>
+        <script src="js/index.js"></script>
+        <script src="js/modal.js"></script>
+
+</body>
+
+</html>

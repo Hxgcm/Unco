@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="DataBase">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib/DataBase" />
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib/Jstl" />
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib/Junit" />
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib/Kaptcha" />
+      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib/FileUpload" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib/DataBase" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib/FileUpload" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib/Jstl" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib/Junit" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib/Kaptcha" recursive="false" />
+  </library>
+</component>

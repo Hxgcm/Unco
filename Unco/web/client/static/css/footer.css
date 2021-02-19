@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.6s;
+    list-style: none;
+}
+.footer{
+    margin-top: 10vh;
+    height: 30vh;
+    background-color: rgb(51, 47, 47);
+}
+.footer_top{
+    margin: 0 auto;
+    padding: 2vw;
+    height: 12%;
+    text-align: center;
+}
+.footer img{
+    display: inline-block;
+    width: 6%;
+    height: 6%;
+}
+.footer_top a{
+    display: inline-block;
+    vertical-align: middle;
+    width: 7vw;
+    height: 1vw;
+    font-size: 1vw;
+    color: rgb(167, 169, 170);
+}
+.footer_top a:hover{
+    font-size: 1.3vw;
+    color: aliceblue;
+}
+.wecat{
+    padding-left: 2vw;
+    margin-left: 8vw;
+    display: inline-block;
+}
+.wecat span{
+    margin-left: 2.8vw;
+    font-size: 1.8vw;
+    color: rgb(165, 163, 163);
+}
+.icon-weixin{
+    position: relative;
+}
+.icon-weibo{
+    position: relative;
+}
+/*  二维码  */
+.qrcode{
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    border-radius: 6px;
+    border:  rgb(151, 146, 146) solid 1px;
+    bottom: 3vw;
+    background: white;
+    position: absolute;
+}
+.qrcode img{
+    padding: 5px;
+    width: 8vw;
+    height: 8vw;
+}
+.sj{
+    width: 1vw;
+    height: 1vw;
+    left: 50%;
+    bottom: -6%;
+    background: #fff;
+    transform: translateX(-50%) rotate(45deg);
+    border-right:  rgb(151, 146, 146) solid 1px;
+    border-bottom:   rgb(151, 146, 146) solid 1px;
+    position: absolute;
+}
+
+
+
+.icon-weixin:hover .qrcode{
+    display: block;
+}
+.wecat span:nth-child(1):hover{
+    color: rgb(16, 202, 31);
+}
+.wecat span:nth-child(2):hover{
+    color: rgb(241, 32, 32);
+}
+
+.footer hr{
+    height: 0px;
+    width: 80%;
+    margin: 1vh auto 5vh;
+}
+
+.footer_bottom{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.footer_bottom span{
+    margin-left: 2vw;
+}

@@ -1,0 +1,156 @@
+.exhibition{
+    margin: 9vh 13vw 0;
+    width: 81vw;
+    height: 70vh;
+}
+.img-title{
+    font-family: "幼圆";
+    margin-top: 12vh;
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-size: 3vw;
+}
+.img-title span{
+    color: skyblue;
+    font-size: 2vw;
+}
+
+.por{
+    position: relative;
+    margin: 15px 15px;
+    float: left;
+    width: 18vw;
+    height: 18vw;
+    display: none;
+}
+.por.active {
+    display: block;
+}
+.por_imgs img{
+    width: 18vw;
+    height: 18vw;
+}
+.info_shadow{
+    font-size: 1vw;
+    padding: 2vw 0.73vw;
+    width: 16.5vw;
+    height: 1.1vw;
+    display: none;
+    background: linear-gradient(rgba(0,0,0,0), black);
+    top: 72%;
+    position: absolute;
+}
+.info_shadow:hover{
+    display: block;
+}
+.por_imgs:hover+.info_shadow{
+    transition: all 1s;
+    display: block;
+}
+.info_shadow a{
+    margin-top: 2vw;
+    color: aliceblue;
+}
+.info_author{
+    font-size: 1.1vw;
+    margin-left: 1vw;
+}
+.info_icon{
+    margin-left: 9vw;
+}
+
+
+
+
+/**  li分栏  **/
+.img_column{
+    margin-left: -20vh;
+    margin-top: 100px;
+    float: left;
+    color: aliceblue;
+    top: 15vh;
+    position: sticky;
+    background-color: aqua;
+    list-style-type: none;
+}
+.img_column li{   
+    padding: 30px 28px;
+    background-color: skyblue;
+}
+.img_column li:hover{
+    cursor: pointer;
+    background-color: blue;
+}
+.img_content li{
+    display: none;
+}
+.img_content li.active{
+    display: block;
+}
+
+.iframe1{
+    margin-top: 20vh;
+    width: 100%;
+    height: 100%;
+}
+.act_con{
+    margin-top: 10vh;
+    display: inline-block;
+}
+
+
+/*      活动  窗口宽度小于1066px时样式开始出错      */
+
+.photo_act{
+    width: 100%;
+    font-family: "幼圆";
+    text-align: center;
+}
+.photo_act h1{
+    font-size: 3vw;
+}
+.photo_act h2{
+    margin-top: 5vh;
+}
+.act_all{
+    margin: 0 auto;
+}
+.act_all li{
+    padding: 5vh 1vw 7vh 1vw;
+    border: 1px solid rgb(185, 184, 184);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 2vh 1vw 0 0;
+    width: 25%;
+    height: 16vw;
+}
+.act_all img{
+    width: 100%;
+    height: 12vw;
+}
+.bottom_shadow p:nth-child(1){
+    margin: 1vh 0.5vw;
+    font-size: 1.4vw;
+    display: inline-block;
+}
+.bottom_shadow p:nth-child(2){
+    font-size: 0.8vw;
+    color: rgb(175, 174, 173);
+    margin: 0.3vw 0 0 5.2vw;
+    display: inline-block;
+}
+.reward{
+    margin-top: 2.5vh;
+}
+.icon-jiangb{
+    font-size: 1vw;
+    float: left;
+    color: rgb(196, 196, 35);
+}
+.reward p{
+    font-size: 1vw;
+    float: left;
+}
+
+
+

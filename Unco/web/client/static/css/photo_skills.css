@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+h1{
+    font-size: 3vw;
+    text-align: center;
+    font-family: "幼圆";
+    
+}
+.skills{
+    margin: 11vh 9vw;
+}
+.photo_skills{
+    border: 1px solid #D6D6D6;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    margin: 1vh 0vw 1vh 1vw; 
+    width: 39vw;
+    height: 22.5vh;
+    display: inline-block;
+    position: relative;
+}
+.hov1:hover{
+    background-color: rgba(0, 0, 0,0.1 );
+    box-shadow: 1px 8px 18px 1px #D6D6D6;
+    top: -1vh;
+    left: -1vw;
+}
+.hov1:active{
+    box-shadow: 0 0 0 0  #D6D6D6;
+}
+.hov2:hover{
+    background-color: rgba(0, 0, 0,0.1 );
+    box-shadow: 1px 8px 18px 1px #D6D6D6;
+    top: -1vh;
+    left: 1vw;
+}
+.hov2:active{
+    box-shadow: 0 0 0 0  #D6D6D6;
+}
+.hov3:hover{
+    background-color: rgba(0, 0, 0,0.1 );
+    box-shadow: 1px 8px 18px 1px #D6D6D6;
+    top: 1vh;
+    left: -1vw;
+}
+.hov3:active{
+    box-shadow: 0 0 0 0  #D6D6D6;
+}
+.hov4:hover{
+    background-color: rgba(0, 0, 0,0.1 );
+    box-shadow: 1px 8px 18px 1px #D6D6D6;
+    top: 1vh;
+    left: 1vw;
+}
+.hov4:active{
+    box-shadow: 0 0 0 0  #D6D6D6;
+}
+.right_shadow{
+    width: 22vw;
+    height: 22.5vh;
+    float: left;
+}
+
+.photo_skills img{
+    float: left;
+    width: 17vw;
+    height: 22.5vh;
+}
+.photo_skills p{
+    color: rgb(87, 87, 87);
+    padding: 2vh 1.5vw;
+    float: right;
+    font-size: 1.5vw;
+}
+.right_shadow span{
+    color: rgb(151, 149, 149);
+    padding: 1vh 5vw;
+    float: left;
+    font-size: 1.3vw;
+}
+.more{
+    text-align: center;
+}
+.more a{
+    color: white;
+    background-color: rgb(19, 159, 252);
+    display: inline-block;
+    padding: 1.3vh 4vw;
+    border-radius: 5px;
+}
+.more a:hover{
+    background-color: rgba(155, 51, 240, 0.5);
+}

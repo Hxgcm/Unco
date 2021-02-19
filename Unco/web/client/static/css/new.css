@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+.img-type {
+    margin: 65px 0 30px 109px;
+    width: 7%;
+    float: left;
+    position: sticky;
+    top: 60px;
+}
+
+.img-type li {  
+    padding: 15px 25px;
+    border: 1px solid;
+}
+
+
+.imgs {
+    margin-top: 64px;
+    width: 80%;
+    display: inline-block;
+    margin-left: 50px;
+    padding: 20px;
+}
+
+.imgs ul li  {
+    margin: 20px;
+    float: left;
+    width: 29.1%;
+}
+.imgs ul li img {
+    width: 100%;
+}
+
+
+
+

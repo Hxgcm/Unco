@@ -1,0 +1,137 @@
+.my-home-main{
+    background-color: red;
+}
+.if_view{
+    height: 80vh;
+    margin: 7% 0 0 6%;
+}
+.author{
+    text-align: center;
+    margin: 6% 5% 0 0;
+    width: 25%;
+    background: rgb(255, 255, 255);
+    height: 80vh;
+    right: 10px;
+    top: 12vh;
+    float: right;
+    position: sticky;
+}
+.author_top{
+    margin-top: 20%;
+}
+.author_top img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.author_top a:nth-child(2){
+    margin: 20px;
+    display: block;
+    font-size: 25px;
+}
+.author_top a:nth-child(4){
+    margin-left: 25px;
+    display: inline-block;
+    color: rgb(204, 186, 186);
+}
+.author_top a:nth-child(5){
+    margin-left: 25px;
+    display: inline-block;
+    color: rgb(204, 186, 186);
+}
+.author_top a:nth-child(6){
+    margin-left: 25px;
+    display: inline-block;
+    color: rgb(204, 186, 186);
+}
+.fans{
+    margin: 40px 0px 40px -25px;
+}
+.fans span{
+    margin-left: 30px;
+}
+.follow{
+    margin: 40px 20px 0;
+    border-radius: 4px;
+    padding: 10px 22px;
+    color: aliceblue;
+    background: #77e908;
+    display: inline-block;
+}
+.follow:hover{
+    background: rgb(51, 192, 248);
+    border-radius: 10px;
+}
+.other{
+    margin: 6%;
+    width: 60%;
+    height: 60%;
+}
+hr{
+    margin-top: 10px;
+    background: rgb(51, 192, 248);
+}
+.comment{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    margin-top: 2vw;
+    height: 10vh;
+    width: 77%;
+}
+.subm{
+    display: inline-block;
+    vertical-align: middle;
+    background:rgb(51, 192, 248);
+    border-radius: 2px;
+    border: 0px solid;
+    margin-top: 2vw;
+    height: 14vh;
+    width: 15%;
+    position: relative;
+    box-shadow: 5px 5px 14px -3px #78DBA5;
+}
+.subm:active{
+    margin-left: 1%;
+    height: 13vh;
+    width: 14%;
+    box-shadow: 5px 5px 14px -3px rgb(55, 220, 241);
+    border: 0px solid;
+}
+.subm:hover{
+    background: rgb(41, 174, 226);
+}
+.commuts{
+    margin-top: 20px;
+}
+.commuts-list li{
+    border-top:1px solid rgb(118, 164, 170);
+    height: 20vh;
+}
+.com-list-img{
+    margin: 20px 35px 0 20px;
+    float: left;
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.con-user{
+    margin-top: 10px;
+    vertical-align: middle;
+    float: left;
+}
+.con-user a{
+    color: rgb(124, 124, 124);
+}
+.con-user p{
+    margin-top: 10px;
+}
+.con-user p:nth-child(4){
+    color: #979797;
+    font-size: 13px;
+}
+.hf{
+    margin: 15vh 40px 0 0;
+    float: right;
+}

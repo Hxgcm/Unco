@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  position: relative;
+}
+.modal {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+.modal.modal-show {
+  display: block;
+}
+.modal::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0,.8)
+}
+.modal .msg-box {
+  height: 63%;
+  width: 24%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.modal .close {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  font-size: 26px;
+}
+.modal .msg-box > p {
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.header{
+  font-size: 25px;
+  margin-left:30px;
+  float: left;
+}
+.modal_top{
+  margin: 45px 0px 0 15px;
+}
+.modal_top a{
+  font-family: '幼圆';
+}
+.modal_top a:hover{
+  color: blue;
+  font-size: 20px;
+}
+.modal_top span{
+  margin-top: 10px;
+  display: inline-block;
+}
+.modal_login{
+  margin-top: 20px;
+}
+.textfiled{
+  border: none;
+  border-bottom: 1px solid pink;
+  height: 6vh;
+  width: 19vw;
+  margin: 13px;
+  outline: none;
+}
+.textfiled:focus{
+  border-bottom: 1.1px solid rgb(55, 106, 247);
+}
+.dl{
+  margin-top: 20px;
+  width: 79%;
+  height: 11%;
+  background: #0074d9;;
+  cursor: pointer;
+  COLOR: white;
+  border: 0px solid;
+}
+.dl:hover{
+  transition: all 1s;
+  background: #1369b4;
+}
+.qw{
+  margin-top: 30px;
+}
+.qw p{
+  margin-bottom: 20px;
+}
+.qw a{
+  color: white;
+  padding: 5px;
+  background: rgb(170, 169, 169);
+  border-radius: 50%;
+  font-size: 25px;
+  margin-left: 15px;
+}
+.qw a:nth-child(2):hover{
+  background: skyblue;
+}
+.qw a:nth-child(3):hover{
+  background: red;
+}
+.qw a:nth-child(4):hover{
+  background: rgb(9, 207, 9);
+}
+
+
+
+/*       注册        */
+.modal2 {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  display: none;
+}
+.modal2.modal-show2 {
+  display: block;
+}
+.modal2::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0,.8)
+}
+.modal2 .msg-box2{
+  height: 73%;
+  width: 24%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.modal2 .close2 {
+  position: absolute;
+  right: 6px;
+  top: 0;
+  font-size: 26px;
+}
+.modal2 .msg-box2 > p {
+  font-size: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.modal_top{
+  margin: 45px 0px 0 15px;
+}
+.modal_top a{
+  font-family: '幼圆';
+}
+.modal_top a:hover{
+  color: blue;
+  font-size: 20px;
+}
+.modal_top span{
+  margin-top: 10px;
+  display: inline-block;
+}
+.modal_login{
+  margin-top: 20px;
+}
+
+
+/*  验证码 */
+.enroll-code{
+    border: none;
+    border-bottom: 1px solid pink;
+    height: 6vh;
+    width: 9vw;
+    margin: 13px;
+    outline: none;
+}
+.code{    
+  background-image:url(w1.jpg);    
+  font-family:Arial;    
+  font-style:italic;    
+  color:Red;    
+  border:0;    
+  padding:2px 3px;    
+  letter-spacing:3px;    
+  font-weight:bolder;    
+  }     

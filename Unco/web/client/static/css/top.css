@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    transition: all 0.6s;
+    list-style: none;
+}
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.top{
+    font-weight:bold;
+   height: 90vh ;
+   background-image: url("../img/top_nav4.jpg");
+   background-size: cover;
+}
+.static-nav{
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 9vh;
+}
+
+.static-nav:hover{
+    transition: all 2s;
+    background-color: rgb(8, 8, 8);
+}
+.logo img{
+
+    margin-left: 4vw;
+    height: 68px;
+    width: 68px;
+    float: left;
+}
+.nav-menu{
+    margin-left: 1vw;
+    vertical-align: middle;
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-menu li{
+    padding: 3.5vh 2vw;
+    display: block;
+    float: left;
+}
+.nav-menu li:hover{
+    background-color:  #0074d9;
+}
+.nav-menu a {
+    color: rgb(253, 253, 253);
+}
+.nav-search{
+    height: 30px;
+    position: relative;
+    text-align: left;
+    vertical-align: middle;
+    margin: 15px auto;
+    margin-left: 1vw;
+    display: inline-block;
+}
+
+.nav-search input{
+    font-size: 15px;
+    color: rgb(223, 224, 226);
+    height: 4vh;
+    width: 5vw;
+    padding-left: 1vw;
+    padding-right: 2vw;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+.nav-search input:focus{
+    width: 10vw;
+}
+.iconfont.icon-sousuo{
+    top: 50%;
+    right: 0.5vw;
+    font-size: 2.5vh;
+    transform: translateY(-43%);
+    color: white;
+    position: absolute;
+}
+.login{
+    height: 9vh;
+    padding-right: 3vw;
+    padding-top: 21px;
+    float: right;
+}
+.login a{
+    color: rgb(255, 255, 255);
+}
+.nav-login{
+	vertical-align: middle;
+}
+.nav-enroll{
+	vertical-align: middle;
+}
+.login img{
+	margin-top: -7px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+.nav-enroll{
+	margin-top:12px;
+    padding: 1vh 1vw;
+    margin-left: 0.5vw;
+    background-color: #77e908;
+    border-radius: 5px;
+}
+.nav-enroll:hover{
+    padding: 1.3vh 1.4vw;
+    transition: 1s;
+    background-color: rgb(48, 158, 248);
+}
+.view-top{
+    padding-top: 68vh;
+    text-align: center;
+    color: rgb(245, 241, 241);
+}
+.view-top p{
+    font-size: 3vw;
+}
+.view-top span{
+    font-size: 1.2vw;
+}
